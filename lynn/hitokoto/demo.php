@@ -1,4 +1,4 @@
-<?php $hitokoto = file_get_contents('https://penglynn.github.io/lynn/hitokoto/'); ?>
+<?php $hitokoto = file_get_contents('https://域名及文件路径/hitokoto/'); ?>
 <html>
 <head>
     <meta charset="utf-8">
@@ -11,7 +11,7 @@
     </div>
     <script src="https://cdn.bootcss.com/jquery/2.0.2/jquery.min.js"></script>
     <script>
-        $.post("https://penglynn.github.io/lynn/hitokoto/", function(hitokoto) {
+        $.post("https://域名及文件路径/hitokoto/", function(hitokoto) {
             $(".content").html(hitokoto);
         });
     </script>
